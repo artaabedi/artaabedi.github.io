@@ -9,12 +9,9 @@
 
 **Desktop View:** <br>
 
-  <img src="/images/Desktop         (Light Mod).png"/>
-  <img src="/images/Desktop         (Night Mod).png"/>
-
-
-
-<br>
+  <img src="https://github.com/artaabedi/artaabedi.github.io/blob/main/images/Desktop%20%20%20%20%20%20%20%20%20(Light%20Mod).png"/>
+  <img src="https://github.com/artaabedi/artaabedi.github.io/blob/main/images/Desktop%20%20%20%20%20%20%20%20(Night%20Mod).png"/>
+</br>
 
 **Mobile View:** <br>
 
