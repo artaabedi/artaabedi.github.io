@@ -17,8 +17,8 @@
 
 <table>
  <tr>
-  <td> <img src=""/> </td>
-  <td> <img src=""/> </td>
+  <td> <img src="https://github.com/artaabedi/artaabedi.github.io/blob/main/images/Mobile%20%20%20%20%20%20%20%20%20%20%20%20(Light%20Mod).png"/> </td>
+  <td> <img src="https://github.com/artaabedi/artaabedi.github.io/blob/main/images/Mobile%20%20%20%20%20%20%20%20%20%20%20(Night%20Mod).png"/> </td>
  </tr>
 </table>
 
