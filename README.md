@@ -9,12 +9,9 @@
 
 **Desktop View:** <br>
 
-<table>
- <tr>
-  <td> <img src="/images/Desktop         (Light Mod).png"/> </td>
-  <td> <img src="/images/Desktop         (Night Mod).png"/> </td>
- </tr>
-</table>
+  <img src="/images/Desktop         (Light Mod).png"/>
+  <img src="/images/Desktop         (Night Mod).png"/>
+
 
 
 <br>
