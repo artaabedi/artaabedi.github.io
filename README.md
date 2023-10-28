@@ -1,6 +1,6 @@
 # Portfolio Website
 
-<p align="center"><img src="" style="width:100%"></p>
+<p align="center"><img src="https://github.com/artaabedi/artaabedi.github.io/blob/main/images/giphy.gif" style="width:100%"></p>
 
 <p align="center">
   <a href="https://github.com/ArtaAbedi/artaabedi.github.io/fork">
