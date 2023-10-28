@@ -1,13 +1,11 @@
 # Portfolio Website
 
-<p align="center"><img src="https://2.bp.blogspot.com/-eBu3-f3vzW0/V3E8UnYXsfI/AAAAAAAADHI/lJrPAoLSE70aO0F3W9fruZ8O-qJY76MSwCLcB/s1600/gambar-gerak-gif-chip-and-dale-terbaru.gif" style="width:100%"></p>
-
+<p align="center"><img src="" style="width:100%"></p>
 
 <p align="center">
   <a href="https://github.com/ArtaAbedi/artaabedi.github.io/fork">
     <img src="https://img.shields.io/github/forks/ArtaAbedi/artaabedi.github.io?label=Fork&style=social">
     
-
 ### Languages used : ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white)  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
 ### Live Demo:
 
@@ -33,7 +31,3 @@
 </table>
 
 <p align=center> Made with ❤️‍🔥 by ARTA </p>
-
-
-
-
