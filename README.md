@@ -29,3 +29,5 @@
   <td> <img src="https://github.com/artaabedi/artaabedi.github.io/blob/main/images/Mobile%20%20%20%20%20%20%20%20%20%20%20(Night%20Mod).png"/> </td>
  </tr>
 </table>
+
+***[ *This repository is updated every month!!!* ]***
