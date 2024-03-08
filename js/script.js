@@ -1,1 +1,80 @@
-var _0x9a758b=_0x313a;function _0x313a(_0xb25f36,_0x525e3c){var _0x213775=_0x2137();return _0x313a=function(_0x313a06,_0x3842e1){_0x313a06=_0x313a06-0x1a3;var _0xec4cf1=_0x213775[_0x313a06];return _0xec4cf1;},_0x313a(_0xb25f36,_0x525e3c);}function _0x2137(){var _0x4d949f=['innerHeight','classList','2059155aEJaIS','copy','85VhMqYJ','.reveal','8473050aWiEsJ','getElementById','780748JOIeDC','getBoundingClientRect','392298fPUShT','dark-mode','querySelector','display','1113320GVwZph','querySelectorAll','body','getElementsByClassName','BCA\x20Graduate','active','style','remove','toggle','label','add','main','dark','9eogfLe','flex','49IbOclD','Web\x20Developer','none','185044GXnlUu','loader','top','nav','3743032dfKTtV','.multiText','innerHTML','UI<span\x20>\x20/\x20</span>UX\x20Designer'];_0x2137=function(){return _0x4d949f;};return _0x2137();}(function(_0x24a88b,_0x2321d0){var _0x5698c5=_0x313a,_0x47ff57=_0x24a88b();while(!![]){try{var _0xf0c07=-parseInt(_0x5698c5(0x1b7))/0x1+parseInt(_0x5698c5(0x1b1))/0x2+parseInt(_0x5698c5(0x1ab))/0x3+-parseInt(_0x5698c5(0x1c9))/0x4*(-parseInt(_0x5698c5(0x1ad))/0x5)+-parseInt(_0x5698c5(0x1b3))/0x6*(parseInt(_0x5698c5(0x1c6))/0x7)+parseInt(_0x5698c5(0x1a5))/0x8*(-parseInt(_0x5698c5(0x1c4))/0x9)+parseInt(_0x5698c5(0x1af))/0xa;if(_0xf0c07===_0x2321d0)break;else _0x47ff57['push'](_0x47ff57['shift']());}catch(_0x5eabdc){_0x47ff57['push'](_0x47ff57['shift']());}}}(_0x2137,0xa3f85));function light(){var _0x4343cb=_0x313a;document['body']['classList']['remove']('dark-mode'),document['getElementById']('light')[_0x4343cb(0x1bd)][_0x4343cb(0x1b6)]=_0x4343cb(0x1c8),document['getElementById'](_0x4343cb(0x1c3))[_0x4343cb(0x1bd)][_0x4343cb(0x1b6)]='block';}function dark(){var _0x58bc5a=_0x313a;document['body'][_0x58bc5a(0x1aa)]['add'](_0x58bc5a(0x1b4)),document['getElementById'](_0x58bc5a(0x1c3))[_0x58bc5a(0x1bd)][_0x58bc5a(0x1b6)]='none',document['getElementById']('light')['style'][_0x58bc5a(0x1b6)]='block';}function theme(){var _0x525813=_0x313a;document[_0x525813(0x1b9)][_0x525813(0x1aa)][_0x525813(0x1bf)](_0x525813(0x1b4));const _0x416c3e=document[_0x525813(0x1ba)](_0x525813(0x1c0));for(let _0x55ad2e=0x0;_0x55ad2e<_0x416c3e['length'];_0x55ad2e++){_0x416c3e[_0x55ad2e][_0x525813(0x1aa)][_0x525813(0x1c1)](_0x525813(0x1c3));}}function navtoggle(){var _0x3b4592=_0x313a;document[_0x3b4592(0x1b5)]('.bar')['classList']['toggle'](_0x3b4592(0x1bc));}var typingEffect=new Typed(_0x9a758b(0x1a6),{'strings':[_0x9a758b(0x1bb),_0x9a758b(0x1c7),_0x9a758b(0x1a8)],'loop':!![],'typeSpeed':0x64,'backSpeed':0x50,'backDelay':0x5dc});window['addEventListener']('scroll',reveal);function reveal(){var _0x5f4bad=_0x9a758b,_0x16372c=document[_0x5f4bad(0x1b8)](_0x5f4bad(0x1ae));for(var _0x251603=0x0;_0x251603<_0x16372c['length'];_0x251603++){var _0x43284c=window[_0x5f4bad(0x1a9)],_0x134227=_0x16372c[_0x251603][_0x5f4bad(0x1b2)]()[_0x5f4bad(0x1a3)],_0x434127=0xa;_0x134227<_0x43284c-_0x434127?_0x16372c[_0x251603][_0x5f4bad(0x1aa)]['add'](_0x5f4bad(0x1bc)):_0x16372c[_0x251603][_0x5f4bad(0x1aa)][_0x5f4bad(0x1be)](_0x5f4bad(0x1bc));}}var loadtime;function loader(){loadtime=setTimeout(showPage,0x7d0);}function showPage(){var _0x4ce6cb=_0x9a758b;document[_0x4ce6cb(0x1b0)](_0x4ce6cb(0x1ca))[_0x4ce6cb(0x1bd)]['display']='none',document[_0x4ce6cb(0x1b0)](_0x4ce6cb(0x1c2))[_0x4ce6cb(0x1bd)]['display']='block',document[_0x4ce6cb(0x1b0)](_0x4ce6cb(0x1a4))[_0x4ce6cb(0x1bd)]['display']=_0x4ce6cb(0x1c5);}function showhome(){var _0x25de98=setTimeout(_0x4434d2,0x834);function _0x4434d2(){var _0x58be40=_0x313a;document[_0x58be40(0x1b0)]('home')[_0x58be40(0x1aa)]['add'](_0x58be40(0x1bc));}}const date=new Date(),year=date['getFullYear']();document[_0x9a758b(0x1b0)](_0x9a758b(0x1ac))[_0x9a758b(0x1a7)]=year;
+// ------------------------Theme Switch -----------------------
+
+        function light() {
+            document.body.classList.remove("dark-mode")
+            document.getElementById("light").style.display = "none"
+            document.getElementById("dark").style.display = "block"
+            
+        }
+        function dark() {
+            document.body.classList.add("dark-mode")
+            document.getElementById("dark").style.display = "none"
+            document.getElementById("light").style.display = "block"
+
+        }
+
+        function theme() {
+            document.body.classList.toggle("dark-mode");
+            const label = document.getElementsByClassName("label");
+            for (let i = 0; i < label.length; i++) {
+                label[i].classList.add("dark")
+            }
+        }
+        function navtoggle() {
+            document.querySelector(".bar").classList.toggle("active")
+        }
+
+    
+// ----------------------multi Tag line---------------------------------------
+
+        var typingEffect = new Typed(".multiText", {
+
+            strings: ["BCA Graduate","Web Developer","UI<span > / </span>UX Designer"],
+
+            loop: true,
+
+            typeSpeed: 100,
+
+            backSpeed: 80,
+
+            backDelay: 1500
+        });
+
+// ---------------------------Scroll Animation--------------------------------
+
+    window.addEventListener('scroll', reveal);
+    function reveal(){
+    var reveals = document.querySelectorAll('.reveal');
+    for(var i = 0; i < reveals.length; i++){ 
+        var windowheight=window.innerHeight; 
+        var revealtop=reveals[i].getBoundingClientRect().top; 
+        var revealpoint=10; 
+        if(revealtop < windowheight - revealpoint) {
+        reveals[i].classList.add('active'); 
+    }else{ 
+        reveals[i].classList.remove('active'); 
+    } } } 
+
+
+//   ----------------------------Loader Animation ---------------------------------  
+
+            var loadtime;
+
+            function loader() {
+                loadtime = setTimeout(showPage, 2000);
+            }
+
+            function showPage() {
+                document.getElementById("loader").style.display = "none";
+                document.getElementById("main").style.display = "block";
+                document.getElementById("nav").style.display = "flex";
+            }
+            function showhome(){
+                var ld=setTimeout(shhome,2100)
+                function shhome(){
+                document.getElementById("home").classList.add('active');
+            }}
+
+            const date = new Date()
+                const year = date.getFullYear()
+                document.getElementById("copy").innerHTML = year
