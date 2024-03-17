@@ -955,16 +955,16 @@ audio{
 	 --left: 0;
 }
  .boxes .box > div:nth-child(2) {
-	 --background: #145af2;
+	 --background: #6200ff;
 	 --right: 0;
 	 --rotateY: 90deg;
 }
  .boxes .box > div:nth-child(3) {
-	 --background: #447cf5;
+	 --background: #6200ff;
 	 --rotateX: -90deg;
 }
  .boxes .box > div:nth-child(4) {
-	 --background: #dbe3f4;
+	 --background: #6200ff;
 	 --top: 0;
 	 --left: 0;
 	 --translateZ: calc(var(--size) * 3 * -1);
