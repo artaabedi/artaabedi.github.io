@@ -982,11 +982,11 @@ audio{
  #loader {
 	 min-height: 100vh;
 	 font-family: Roboto, Arial;
-	 color: #adafb6;
+	 color: #6200ff;
 	 display: flex;
 	 justify-content: center;
 	 align-items: center;
-	 background: #f9fbff;
+	 background: #6200ff;
 }
 #loader .dribbble {
 	 position: fixed;
@@ -1004,7 +1004,7 @@ audio{
     left: 50%;
     top:50%;
     transform: translate(-50% ,-50%);
-    transition: 5s;
+    transition: 1s;
     width: auto;
     height: 100vh;
 } */
