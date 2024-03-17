@@ -982,11 +982,11 @@ audio{
  #loader {
 	 min-height: 100vh;
 	 font-family: Roboto, Arial;
-	 color: #6200ff;
+	 color: #adafb6;
 	 display: flex;
 	 justify-content: center;
 	 align-items: center;
-	 background: #6200ff;
+	 background: #f9fbff;
 }
 #loader .dribbble {
 	 position: fixed;
