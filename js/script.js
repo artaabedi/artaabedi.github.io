@@ -70,7 +70,7 @@
                 document.getElementById("nav").style.display = "flex";
             }
             function showhome(){
-                var ld=setTimeout(shhome,1100)
+                var ld=setTimeout(shhome,1500)
                 function shhome(){
                 document.getElementById("home").classList.add('active');
             }}
