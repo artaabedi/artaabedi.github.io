@@ -932,7 +932,7 @@ audio{
 	 animation: box4 var(--duration) linear infinite;
 }
  .boxes .box > div {
-	 --background: #6200ff;
+	 --background: #5c8df6;
 	 --top: auto;
 	 --right: auto;
 	 --bottom: auto;
@@ -955,16 +955,16 @@ audio{
 	 --left: 0;
 }
  .boxes .box > div:nth-child(2) {
-	 --background: #6200ff;
+	 --background: #145af2;
 	 --right: 0;
 	 --rotateY: 90deg;
 }
  .boxes .box > div:nth-child(3) {
-	 --background: #6200ff;
+	 --background: #447cf5;
 	 --rotateX: -90deg;
 }
  .boxes .box > div:nth-child(4) {
-	 --background: #6200ff;
+	 --background: #dbe3f4;
 	 --top: 0;
 	 --left: 0;
 	 --translateZ: calc(var(--size) * 3 * -1);
