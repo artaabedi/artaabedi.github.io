@@ -29,7 +29,7 @@
 
         var typingEffect = new Typed(".multiText", {
 
-            strings: ["BCA Graduate","Web Developer","UI<span > / </span>UX Designer"],
+            strings: ["BCA Graduate","Front-End Developer","UI<span > / </span>UX Designer"],
 
             loop: true,
 
@@ -61,7 +61,7 @@
             var loadtime;
 
             function loader() {
-                loadtime = setTimeout(showPage, 2000);
+                loadtime = setTimeout(showPage, 1000);
             }
 
             function showPage() {
@@ -70,7 +70,7 @@
                 document.getElementById("nav").style.display = "flex";
             }
             function showhome(){
-                var ld=setTimeout(shhome,2100)
+                var ld=setTimeout(shhome,1100)
                 function shhome(){
                 document.getElementById("home").classList.add('active');
             }}
