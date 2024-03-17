@@ -61,7 +61,7 @@
             var loadtime;
 
             function loader() {
-                loadtime = setTimeout(showPage, 1000);
+                loadtime = setTimeout(showPage, 1500);
             }
 
             function showPage() {
@@ -70,7 +70,7 @@
                 document.getElementById("nav").style.display = "flex";
             }
             function showhome(){
-                var ld=setTimeout(shhome,1500)
+                var ld=setTimeout(shhome,1800)
                 function shhome(){
                 document.getElementById("home").classList.add('active');
             }}
