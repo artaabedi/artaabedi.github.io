@@ -932,7 +932,7 @@ audio{
 	 animation: box4 var(--duration) linear infinite;
 }
  .boxes .box > div {
-	 --background: #6200ff;
+	 --background: #5c8df6;
 	 --top: auto;
 	 --right: auto;
 	 --bottom: auto;
@@ -955,16 +955,16 @@ audio{
 	 --left: 0;
 }
  .boxes .box > div:nth-child(2) {
-	 --background: #6200ff;
+	 --background: #145af2;
 	 --right: 0;
 	 --rotateY: 90deg;
 }
  .boxes .box > div:nth-child(3) {
-	 --background: #6200ff;
+	 --background: #447cf5;
 	 --rotateX: -90deg;
 }
  .boxes .box > div:nth-child(4) {
-	 --background: #6200ff;
+	 --background: #dbe3f4;
 	 --top: 0;
 	 --left: 0;
 	 --translateZ: calc(var(--size) * 3 * -1);
@@ -982,11 +982,11 @@ audio{
  #loader {
 	 min-height: 100vh;
 	 font-family: Roboto, Arial;
-	 color: #6200ff;
+	 color: #adafb6;
 	 display: flex;
 	 justify-content: center;
 	 align-items: center;
-	 background: #6200ff;
+	 background: #f9fbff;
 }
 #loader .dribbble {
 	 position: fixed;
@@ -1004,7 +1004,7 @@ audio{
     left: 50%;
     top:50%;
     transform: translate(-50% ,-50%);
-    transition: 1s;
+    transition: 5s;
     width: auto;
     height: 100vh;
 } */
