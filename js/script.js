@@ -1,11 +1,5 @@
 // ------------------------Theme Switch -----------------------
-
-        function light() {
-            document.body.classList.remove("dark-mode")
-            document.getElementById("light").style.display = "none"
-            document.getElementById("dark").style.display = "block"
-            
-        }
+       
         function dark() {
             document.body.classList.add("dark-mode")
             document.getElementById("dark").style.display = "none"
@@ -13,18 +7,28 @@
 
         }
 
+
+
+        function light() {
+            document.body.classList.remove("dark-mode")
+            document.getElementById("light").style.display = "none"
+            document.getElementById("dark").style.display = "block"
+            
+        }
+        
+
         function theme() {
-            document.body.classList.toggle("light-mode");
+            document.body.classList.toggle("dark-mode");
             const label = document.getElementsByClassName("label");
             for (let i = 0; i < label.length; i++) {
-                label[i].classList.add("light")
+                label[i].classList.add("dark")
             }
         }
         function navtoggle() {
             document.querySelector(".bar").classList.toggle("active")
         }
 
-    
+    the 
 // ----------------------multi Tag line---------------------------------------
 
         var typingEffect = new Typed(".multiText", {
