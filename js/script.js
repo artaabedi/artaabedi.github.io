@@ -14,10 +14,10 @@
         }
 
         function theme() {
-            document.body.classList.toggle("dark-mode");
+            document.body.classList.toggle("light-mode");
             const label = document.getElementsByClassName("label");
             for (let i = 0; i < label.length; i++) {
-                label[i].classList.add("dark")
+                label[i].classList.add("light")
             }
         }
         function navtoggle() {
