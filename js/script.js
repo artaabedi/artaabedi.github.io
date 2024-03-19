@@ -1,13 +1,4 @@
 // ------------------------Theme Switch -----------------------
-       
-        function dark() {
-            document.body.classList.add("dark-mode")
-            document.getElementById("dark").style.display = "none"
-            document.getElementById("light").style.display = "block"
-
-        }
-
-
 
         function light() {
             document.body.classList.remove("dark-mode")
@@ -15,7 +6,12 @@
             document.getElementById("dark").style.display = "block"
             
         }
-        
+        function dark() {
+            document.body.classList.add("dark-mode")
+            document.getElementById("dark").style.display = "none"
+            document.getElementById("light").style.display = "block"
+
+        }
 
         function theme() {
             document.body.classList.toggle("dark-mode");
@@ -28,12 +24,12 @@
             document.querySelector(".bar").classList.toggle("active")
         }
 
-    the 
+    
 // ----------------------multi Tag line---------------------------------------
 
         var typingEffect = new Typed(".multiText", {
 
-            strings: ["BCA Graduate","Front-End Developer","UI<span > / </span>UX Designer"],
+            strings: ["BCA Graduate","Web Developer","UI<span > / </span>UX Designer"],
 
             loop: true,
 
@@ -65,7 +61,7 @@
             var loadtime;
 
             function loader() {
-                loadtime = setTimeout(showPage, 1500);
+                loadtime = setTimeout(showPage, 2000);
             }
 
             function showPage() {
@@ -74,7 +70,7 @@
                 document.getElementById("nav").style.display = "flex";
             }
             function showhome(){
-                var ld=setTimeout(shhome,1800)
+                var ld=setTimeout(shhome,2100)
                 function shhome(){
                 document.getElementById("home").classList.add('active');
             }}
