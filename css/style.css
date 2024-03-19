@@ -52,7 +52,7 @@ body{
     padding: 0 10%;
     color: var(--black);
     transition: 1s;
-    /* transition: color 0.1s;   */
+    /* transition: color 3s;   */
     overflow-x: hidden;
     
 }
