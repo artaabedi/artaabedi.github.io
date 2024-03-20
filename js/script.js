@@ -1,4 +1,4 @@
-// ------------------------Theme Switch -----------------------
+// ------------------------Theme Switch-----------------------
 
         function light() {
             document.body.classList.remove("dark-mode")
@@ -57,7 +57,7 @@
     } } } 
 
 
-//   ----------------------------Loader Animation ---------------------------------  
+//   ----------------------------Loader Animation---------------------------------  
 
             var loadtime;
 
@@ -82,7 +82,7 @@
                 document.getElementById("copy").innerHTML = year
 
 
-//   ----------------------------Top Scroll ---------------------------------  
+//   ----------------------------Scroll Top---------------------------------  
 
 const scrollTopBtn = document.querySelector('.js-scroll-top');
 if (scrollTopBtn) {
@@ -125,3 +125,5 @@ if (scrollTopBtn) {
 
   }, false);
 }
+
+
