@@ -1049,7 +1049,7 @@ audio{
 .scroll-top .icon-tabler-arrow-up {
   position: absolute;
   stroke-width: 2px;
-  stroke: #333;
+  stroke: #fff;
 }
 
 .scroll-top svg path { 
