@@ -1035,9 +1035,9 @@ audio{
 	border-radius: 50%;
   transition: all .4s ease;
   border: none;
-  box-shadow: inset 0 0 0 2px #ccc;
+  box-shadow: inset 0 0 0 2px #fff;
   color: #ccc;
-  background-color: #fff;
+  background-color: #000;
 }
 
 .scroll-top.is-active {
