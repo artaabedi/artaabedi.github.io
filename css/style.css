@@ -1017,7 +1017,7 @@ audio{
 /* --------------------Scroll-Top---------------------------- */
 
 .scroll-top {
-  --ghost-accent-color:Violet;
+  --ghost-accent-color:ElectricViolet;
 	position: fixed;
   z-index: 50;
   padding: 0;
