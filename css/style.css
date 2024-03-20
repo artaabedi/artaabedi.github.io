@@ -1036,7 +1036,7 @@ audio{
   transition: all .4s ease;
   border: none;
   box-shadow: inset 0 0 0 2px #fff;
-  color: #ccc;
+  color: #fff;
   background-color: #000;
 }
 
