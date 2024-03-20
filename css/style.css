@@ -1026,8 +1026,8 @@ audio{
 	opacity: 0;
 	visibility: hidden;
 	transform: translateY(15px);    
-	height: 46px;
-	width: 46px;
+	height: 50px;
+	width: 50px;
 	cursor: pointer;
 	display: flex;
   align-items: center;
@@ -1049,7 +1049,7 @@ audio{
 .scroll-top .icon-tabler-arrow-up {
   position: absolute;
   stroke-width: 2px;
-  stroke: #333;
+  stroke: #fff;
 }
 
 .scroll-top svg path { 
@@ -1057,7 +1057,7 @@ audio{
 }
 
 .scroll-top svg.progress-circle path {
-	stroke: #333;
+	stroke: #fff;
 	stroke-width: 4;
   transition: all .4s ease;
 }
