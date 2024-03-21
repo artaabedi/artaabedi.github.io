@@ -1015,7 +1015,7 @@ body {
   );
   transform: scaleX(0.8) rotate(45deg);
   border-radius: 0 40% 60% 40%;
-  filter: drop-shadow(0 0 10px #3cff1e);
+  filter: drop-shadow(0 0 10px #7F00FF);
 }
 
 .fire-center .particle-fire {
