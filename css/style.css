@@ -907,7 +907,7 @@ audio{
   width: 30%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 6px;
+  gap: 10%;
   margin: 0 auto;
 }
 
@@ -937,7 +937,7 @@ audio{
     transform: scale(1.2);
   }
 
-  100% {
+  -50% {
     transform: scale(0.8);
   }
 }
