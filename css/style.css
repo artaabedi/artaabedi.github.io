@@ -901,23 +901,16 @@ audio{
 
 
 /* --------------------loader---------------------------- */
-.boxes .box > div {
-  --background: #7F00FF;
-  --translateZ: calc(var(--size) / 2);
-  --rotateY: 0deg;
-  --rotateX: 0deg;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: var(--background);
-  /* جایگزینی با calc(100% * -1) برای همه جهات */
-  top: calc(100% * -1);
-  right: calc(100% * -1);
-  bottom: calc(100% * -1);
-  left: calc(100% * -1);
-  transform: rotateY(var(--rotateY)) rotateX(var(--rotateX)) translateZ(var(--translateZ));
-}
-
+.boxes {
+	 --size: 33px;
+	 --duration: 800ms;
+	 height: calc(var(--size) * 2);
+	 width: calc(var(--size) * 3);
+	 position: relative;
+	 transform-style: preserve-3d;
+	 transform-origin: 50% 50%;
+	 margin-top: calc(var(--size) * 1.5 * -1);
+	 transform: rotateX(60deg) rotateZ(45deg) rotateY(0deg) translateZ(0px);
 }
  .boxes .box {
 	 width: var(--size);
