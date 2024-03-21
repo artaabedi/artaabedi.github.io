@@ -903,8 +903,8 @@ audio{
 /* --------------------loader---------------------------- */
 
 .cube {
-  height: 66px;
-  width: 99px;
+  height: 100px;
+  width: 100px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 6px;
@@ -912,8 +912,8 @@ audio{
 }
 
 .cube_item {
-  height: 30px;
-  width: px;
+  height: 50px;
+  width: 50px;
   border-radius: 10px;
   transition: all 0.2s ease-in;
 }
