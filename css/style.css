@@ -903,16 +903,17 @@ audio{
 /* --------------------loader---------------------------- */
 
 .cube {
-  height: 80px;
-  width: 80px;
+  height: 100vh;
+  width: 100vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 6px;
+  margin: 0 auto;
 }
 
 .cube_item {
-  height: 40px;
-  width: 40px;
+  height: calc(50% - 3px);
+  width: calc(50% - 3px);
   border-radius: 10px;
   transition: all 0.2s ease-in;
 }
@@ -940,6 +941,7 @@ audio{
     transform: scale(0.8);
   }
 }
+
 
 /* --------------------Scroll-Top---------------------------- */
 
