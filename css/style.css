@@ -976,11 +976,11 @@ body {
 @keyframes glow {
   0%,
   100% {
-    background-color: #3cff1e;
+    background-color: ;
   }
 
   50% {
-    background-color: #3cff1e;
+    background-color: #7F00FF;
   }
 }
 
@@ -1010,8 +1010,8 @@ body {
   height: 100%;
   background-image: radial-gradient(
     farthest-corner at 10px 0,
-    #3cff1e 0%,
-    #3cff1e 95%
+    #7F00FF 0%,
+    #7F00FF 95%
   );
   transform: scaleX(0.8) rotate(45deg);
   border-radius: 0 40% 60% 40%;
@@ -1024,7 +1024,7 @@ body {
   left: 45%;
   width: 10px;
   height: 10px;
-  background-color: #3cff1e;
+  background-color: #7F00FF;
   border-radius: 50%;
   filter: drop-shadow(0 0 10px #d43322);
   animation: particleUp 2s ease-out 0;
@@ -1047,10 +1047,10 @@ body {
   right: -25%;
   width: 80%;
   height: 80%;
-  background-color: #3cff1e;
+  background-color: #7F00FF;
   transform: scaleX(0.8) rotate(45deg);
   border-radius: 0 40% 60% 40%;
-  filter: drop-shadow(0 0 10px #3cff1e);
+  filter: drop-shadow(0 0 10px #7F00FF);
 }
 
 .fire-right .particle-fire {
@@ -1059,10 +1059,10 @@ body {
   left: 50%;
   width: 15px;
   height: 15px;
-  background-color: #3cff1e;
+  background-color: #7F00FF;
   transform: scaleX(0.8) rotate(45deg);
   border-radius: 50%;
-  filter: drop-shadow(0 0 10px #3cff1e);
+  filter: drop-shadow(0 0 10px #7F00FF);
   animation: particleUp 2s ease-out 0;
   animation-iteration-count: infinite;
   animation-fill-mode: both;
@@ -1083,10 +1083,10 @@ body {
   left: -20%;
   width: 80%;
   height: 80%;
-  background-color: #3cff1e;
+  background-color: #7F00FF;
   transform: scaleX(0.8) rotate(45deg);
   border-radius: 0 40% 60% 40%;
-  filter: drop-shadow(0 0 10px #3cff1e);
+  filter: drop-shadow(0 0 10px #7F00FF);
 }
 
 .fire-left .particle-fire {
@@ -1095,7 +1095,7 @@ body {
   left: 20%;
   width: 10%;
   height: 10%;
-  background-color: #3cff1e;
+  background-color: #7F00FF;
   border-radius: 50%;
   filter: drop-shadow(0 0 10px #d43322);
   animation: particleUp 3s infinite ease-out 0;
@@ -1108,7 +1108,7 @@ body {
   left: 20%;
   width: 75%;
   height: 75%;
-  background-color: #3cff1e;
+  background-color: #7F00FF;
   transform: scaleX(0.8) rotate(45deg);
   border-radius: 0 40% 100% 40%;
   filter: blur(10px);
