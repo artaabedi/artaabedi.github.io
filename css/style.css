@@ -303,9 +303,6 @@ nav{
     border-radius: 65% 30% 30% 70% / 60% 40% 60% 40%;
 }
 
-
-
-
 /* -------------------------about--------------------------------- */
 
 #about{
@@ -411,6 +408,7 @@ nav{
 .btn-container .button{
     padding: 12px 30px;
 }
+
 /*-------------------Education-----------------------*/
 
 .edu-container{
@@ -578,9 +576,7 @@ nav{
    border-radius: 50%;
 }
 
-
 /* -------------------------projects------------------------------ */
-
 
 #projects{
 padding: 75px 0;
@@ -698,7 +694,6 @@ flex-direction: column;
     background-color: #5a47ba;
 }
 
-
 /* -----------------------------contact------------------------------------ */
 
 .contact-container{
@@ -793,6 +788,7 @@ flex-direction: column;
 .input-container button:hover{
     background-color: #5a47ba;
 }
+
 /* ------------------------footer------------------------------ */
 
 footer{
@@ -899,7 +895,6 @@ audio{
     color: red;
 }
 
-
 /* --------------------loader---------------------------- */
 
 .cube {
@@ -941,7 +936,6 @@ audio{
     transform: scale(0.8);
   }
 }
-
 
 /* --------------------Scroll-Top---------------------------- */
 
@@ -1000,3 +994,7 @@ audio{
 }
 
 .content { max-width: 640px; margin: 0 auto; }
+
+
+
+
