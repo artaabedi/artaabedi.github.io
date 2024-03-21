@@ -905,7 +905,7 @@ audio{
 body {
   margin: 0;
   padding: 0;
-  height: 1000%;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -916,8 +916,8 @@ body {
   position: absolute;
   top: calc(50% - 25px);
   left: calc(50% - 25px);
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   background-color: transparent;
   margin-left: auto;
   margin-right: auto;
