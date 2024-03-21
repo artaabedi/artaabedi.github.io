@@ -915,7 +915,7 @@ audio{
   height: 1.2em;
   width: 1.2em;
   border-radius: 5px;
-  background-color: white;
+  background-color: #7F00FF;
   box-shadow: 0 1px 7px rgba(0,0,0,0.3);
 }
 
@@ -926,7 +926,7 @@ audio{
   height: 1.2em;
   width: 1.2em;
   border-radius: 5px;
-  background-color: white;
+  background-color: #00FFFF;
   animation: 2s flow2 infinite;
 }
 
@@ -937,7 +937,7 @@ audio{
   height: 1.2em;
   width: 1.2em;
   border-radius: 5px;
-  background-color: white;
+  background-color: #7F00FF;
   animation: 2s flow3 infinite;
 }
 
@@ -948,7 +948,7 @@ audio{
   height: 1.2em;
   width: 1.2em;
   border-radius: 5px;
-  background-color: white;
+  background-color: #00FFFF;
   animation: 2s flow4 infinite;
 }
 
@@ -959,7 +959,7 @@ audio{
   height: 1.2em;
   width: 1.2em;
   border-radius: 5px;
-  background-color: white;
+  background-color: #7F00FF;
   animation: 2s flow5 infinite;
 }
 
@@ -970,7 +970,7 @@ audio{
   height: 1.2em;
   width: 1.2em;
   border-radius: 5px;
-  background-color: white;
+  background-color: #00FFFF;
   animation: 6s flow6 infinite;
 }
 
@@ -981,7 +981,7 @@ audio{
   height: 1.2em;
   width: 1.2em;
   border-radius: 5px;
-  background-color: white;
+  background-color: #7F00FF;
   animation: 6s flow7 infinite;
 }
 
@@ -992,7 +992,7 @@ audio{
   height: 1.2em;
   width: 1.2em;
   border-radius: 5px;
-  background-color: white;
+  background-color: #00FFFF;
   animation: 6s flow8 infinite;
 }
 
@@ -1002,7 +1002,7 @@ audio{
   height: 1.2em;
   width: 1.2em;
   border-radius: 5px;
-  background-color: white;
+  background-color: #7F00FF;
   animation: 6s flow9 infinite;
 }
 
