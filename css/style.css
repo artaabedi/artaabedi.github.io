@@ -910,7 +910,7 @@ audio{
 .box1,
 .box2,
 .box3 {
-  border: 16px solid red;
+  border: 16px solid #7F00FF;
   box-sizing: border-box;
   position: absolute;
   display: block;
