@@ -303,6 +303,9 @@ nav{
     border-radius: 65% 30% 30% 70% / 60% 40% 60% 40%;
 }
 
+
+
+
 /* -------------------------about--------------------------------- */
 
 #about{
@@ -408,7 +411,6 @@ nav{
 .btn-container .button{
     padding: 12px 30px;
 }
-
 /*-------------------Education-----------------------*/
 
 .edu-container{
@@ -576,7 +578,9 @@ nav{
    border-radius: 50%;
 }
 
+
 /* -------------------------projects------------------------------ */
+
 
 #projects{
 padding: 75px 0;
@@ -694,6 +698,7 @@ flex-direction: column;
     background-color: #5a47ba;
 }
 
+
 /* -----------------------------contact------------------------------------ */
 
 .contact-container{
@@ -788,7 +793,6 @@ flex-direction: column;
 .input-container button:hover{
     background-color: #5a47ba;
 }
-
 /* ------------------------footer------------------------------ */
 
 footer{
@@ -895,11 +899,12 @@ audio{
     color: red;
 }
 
+
 /* --------------------loader---------------------------- */
 
 .cube {
-  height: 100vh;
-  width: 100vw;
+  height: 66px;
+  width: 99px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 6px;
@@ -907,14 +912,14 @@ audio{
 }
 
 .cube_item {
-  height: calc(50% - 3px);
-  width: calc(50% - 3px);
+  height: 30px;
+  width: px;
   border-radius: 10px;
   transition: all 0.2s ease-in;
 }
 
 .cube_x {
-  background-color: blueviolet;
+  background-color: #7F00FF;
   animation: animateLoaders 1s infinite;
 }
 
@@ -936,6 +941,7 @@ audio{
     transform: scale(0.8);
   }
 }
+
 
 /* --------------------Scroll-Top---------------------------- */
 
@@ -994,7 +1000,3 @@ audio{
 }
 
 .content { max-width: 640px; margin: 0 auto; }
-
-
-
-
