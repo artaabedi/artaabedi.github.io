@@ -916,8 +916,8 @@ body {
   position: absolute;
   top: calc(50% - 25px);
   left: calc(50% - 25px);
-  width: 1000px;
-  height: 1000px;
+  width: 50px;
+  height: 50px;
   background-color: transparent;
   margin-left: auto;
   margin-right: auto;
@@ -988,8 +988,8 @@ body {
   position: absolute;
   top: calc(50% - 25px);
   left: calc(50% - 25px);
-  width: 50px; /* Reduced size by 50% */
-  height: 50px; /* Reduced size by 50% */
+  width: 200px; /* Reduced size by 50% */
+  height: 200px; /* Reduced size by 50% */
   background-color: transparent;
   margin-left: auto;
   margin-right: auto;
