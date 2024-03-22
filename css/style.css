@@ -1073,3 +1073,58 @@ audio{
 }
 
 .content { max-width: 640px; margin: 0 auto; }
+
+
+/* --------------------404Error---------------------------- */
+
+* {
+
+    box-sizing: border-box;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+body {
+
+    height: 100vh;
+
+    overflow: hidden;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: #7F00FF;
+
+    font-family: "Poppins" , sans-serif;
+
+    background: #000;
+
+}
+
+.container {
+
+    text-align: center;
+
+    user-select: none;
+
+}
+
+.container h1 {
+
+    font-size: 6rem;
+
+}
+
+.container h1 .fas {
+
+    animation: animate1 2s linear infinite alternate;
+
+
+
+
