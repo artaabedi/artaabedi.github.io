@@ -146,12 +146,7 @@ nav{
     display: none;
 }
 
- background: rgba( 29, 27, 27, 0.15 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 14.5px );
--webkit-backdrop-filter: blur( 14.5px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+ 
 
 /* --------------------------------------------- */
 
@@ -307,7 +302,6 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 
 
-
 /* -------------------------about--------------------------------- */
 
 #about{
@@ -413,6 +407,9 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .btn-container .button{
     padding: 12px 30px;
 }
+
+
+
 /*-------------------Education-----------------------*/
 
 .edu-container{
@@ -493,6 +490,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     font-weight: 500;
     text-decoration: none;
 }
+
+
 
 /* --------------------skills----------------------- */
 
@@ -579,6 +578,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
    background-color: white;
    border-radius: 50%;
 }
+
 
 
 /* -------------------------projects------------------------------ */
@@ -701,6 +701,7 @@ flex-direction: column;
 }
 
 
+
 /* -----------------------------contact------------------------------------ */
 
 .contact-container{
@@ -795,6 +796,9 @@ flex-direction: column;
 .input-container button:hover{
     background-color: #7F00FF;
 }
+
+
+
 /* ------------------------footer------------------------------ */
 
 footer{
@@ -900,6 +904,7 @@ audio{
 .made i{
     color: red;
 }
+
 
 
 /* --------------------loader---------------------------- */
@@ -1016,6 +1021,7 @@ audio{
     width: auto;
     height: 100vh;
 } */
+
 
 
 /* --------------------Scroll-Top---------------------------- */
