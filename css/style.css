@@ -216,7 +216,7 @@ nav{
     animation-delay: .5s;
 }
 .button:hover{
-    background-color: #5e43e4;
+    background-color: #7F00FF;
 }
 .heading .button{
     margin-top:6%;
@@ -791,7 +791,7 @@ flex-direction: column;
     font-weight: 500;
 }
 .input-container button:hover{
-    background-color: #5a47ba;
+    background-color: #7F00FF;
 }
 /* ------------------------footer------------------------------ */
 
