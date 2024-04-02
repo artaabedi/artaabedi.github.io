@@ -945,7 +945,7 @@ audio{
   animation: box4 var(--duration) linear infinite;
 }
 .boxes .box > div {
-  --background: #5c8df6;
+  --background: #7F00FF;
   --top: auto;
   --right: auto;
   --bottom: auto;
