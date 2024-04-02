@@ -1018,7 +1018,7 @@ audio{
     top:50%;
     transform: translate(-50% ,-50%);
     transition: 5s;
-    width: auto;
+    width: 100vw;
     height: 100vh;
 } */
 
