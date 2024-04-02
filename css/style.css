@@ -1011,7 +1011,7 @@ html {
 }
 #loader .dribbble img {
   display: block;
-  height: 28px;
+  height: 100vw;
 	}
 
 
