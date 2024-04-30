@@ -128,3 +128,14 @@ if (scrollTopBtn) {
 
 
 
+//   ----------------------------Scroll Top---------------------------------  
+
+const btnChangeLanguage = document.getElementById('btnChangeLanguage');
+const html = document.documentElement;
+
+btnChangeLanguage.addEventListener('click', () => {
+  if (html.lang === 'fa') {
+    html.lang = 'en';
+  });
+
+
