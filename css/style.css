@@ -1077,41 +1077,16 @@ html {
 
 
 /* --------------------Change Languages---------------------------- */
-
-.button-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body {
+  font-family: Arial, sans-serif;
 }
 
-.button {
+#btnChangeLanguage {
   background-color: purple;
   color: white;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
-  font-family: sans-serif;
-}
-
-.lang-en, .lang-nl {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.lang-en {
-  opacity: 1;
-}
-
-.lang-nl {
-  opacity: 0;
-}
-
-.button:hover .lang-en {
-  opacity: 0;
-}
-
-.button:hover .lang-nl {
-  opacity: 1;
 }
 
 
