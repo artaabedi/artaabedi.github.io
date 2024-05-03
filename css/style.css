@@ -1073,20 +1073,3 @@ html {
 }
 
 .content { max-width: 640px; margin: 0 auto; }
-
-
-
-/* --------------------Change Languages---------------------------- */
-body {
-  font-family: Arial, sans-serif;
-}
-
-#btnChangeLanguage {
-  background-color: purple;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-
