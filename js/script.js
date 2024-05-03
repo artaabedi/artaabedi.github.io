@@ -125,5 +125,3 @@ if (scrollTopBtn) {
 
   }, false);
 }
-
-
