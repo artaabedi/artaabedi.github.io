@@ -1080,19 +1080,6 @@ html {
 
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap'); 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css'); 
-body { 
-    font-family: 'Didact Gothic', sans-serif; 
-    color:#333; 
-        box-sizing: border-box; 
-} 
- 
-* { 
-    box-sizing: border-box; 
-} 
- 
-a { 
-    text-decoration: none; 
-} 
  
 .lang-menu { 
     width: 100px; 
