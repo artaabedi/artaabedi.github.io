@@ -59,33 +59,71 @@
 
 //   ----------------------------Loader Animation---------------------------------  
 
-function changeLanguage(languageCode) {
-    Array.from(document.getElementsByClassName('lang')).forEach(function (elem) {
-        if (elem.classList.contains('lang-' + languageCode)) {
-             elem.style.display = 'initial';
-        }
-        else {
-             elem.style.display = 'none';
-        }
-    });
+            var loadtime;
+
+            function loader() {
+                loadtime = setTimeout(showPage, 1000);
+            }
+
+            function showPage() {
+                document.getElementById("loader").style.display = "none";
+                document.getElementById("main").style.display = "block";
+                document.getElementById("nav").style.display = "flex";
+            }
+            function showhome(){
+                var ld=setTimeout(shhome,1100)
+                function shhome(){
+                document.getElementById("home").classList.add('active');
+            }}
+
+            const date = new Date()
+                const year = date.getFullYear()
+
+                document.getElementById("copy").innerHTML = year
+
+
+//   ----------------------------Scroll Top---------------------------------  
+
+const scrollTopBtn = document.querySelector('.js-scroll-top');
+if (scrollTopBtn) {
+  scrollTopBtn.onclick = () => {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
+  
+  const progressPath = document.querySelector('.scroll-top path');
+  const pathLength = progressPath.getTotalLength();
+  progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
+  progressPath.style.strokeDasharray = `${pathLength} ${pathLength}`;
+  progressPath.style.strokeDashoffset = pathLength;
+  progressPath.getBoundingClientRect();
+  progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';		
+  const updateProgress = function() {
+    const scroll = window.scrollY || window.scrollTopBtn || document.documentElement.scrollTopBtn;
+
+    const docHeight = Math.max(
+      document.body.scrollHeight, document.documentElement.scrollHeight,
+      document.body.offsetHeight, document.documentElement.offsetHeight,
+      document.body.clientHeight, document.documentElement.clientHeight
+    );
+
+    const windowHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+
+    const height = docHeight - windowHeight;
+    var progress = pathLength - (scroll * pathLength / height);
+    progressPath.style.strokeDashoffset = progress;
+  }
+
+  updateProgress();
+  const offset = 100;
+
+  window.addEventListener('scroll', function(event) {
+    updateProgress();
+
+    //Scroll back to top
+    const scrollPos = window.scrollY || window.scrollTopBtn || document.getElementsByTagName('html')[0].scrollTopBtn;
+    scrollPos > offset ? scrollTopBtn.classList.add('is-active') : scrollTopBtn.classList.remove('is-active');
+
+  }, false);
 }
-
-// select handler
-const selector = document.getElementById('langSelector');
-selector.addEventListener('change', function (evt) {
-    changeLanguage(this.value);
-});
-
-// detect initial browser language
-const lang = navigator.userLanguage || navigator.language || 'en-EN';
-const startLang = Array.from(selector.options).map(opt => opt.value).find(val => lang.includes(val)) || 'en';
-changeLanguage(startLang);
-
-// updating select with start value
-selector.selectedIndex = Array.from(selector.options).map(opt => opt.value).indexOf(startLang)
-
-// fill "The selected language is:"
-document.getElementById('browserLang').innerText = lang;
-document.getElementById('startLang').innerText = startLang;
 
 
