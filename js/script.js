@@ -25,7 +25,7 @@
         }
 
     
-// ----------------------Multi Tag Line---------------------------------------
+// ----------------------multi Tag line---------------------------------------
 
         var typingEffect = new Typed(".multiText", {
 
@@ -38,7 +38,7 @@
             backSpeed: 80,
 
             backDelay: 1500
-         });
+        });
 
 
 // ---------------------------Scroll Animation--------------------------------
@@ -54,10 +54,35 @@
         reveals[i].classList.add('active'); 
     }else{ 
         reveals[i].classList.remove('active'); 
-   } } } 
+    } } } 
 
 
-//  ----------------------------Scroll Top---------------------------------  
+//   ----------------------------Loader Animation---------------------------------  
+
+            var loadtime;
+
+            function loader() {
+                loadtime = setTimeout(showPage, 1000);
+            }
+
+            function showPage() {
+                document.getElementById("loader").style.display = "none";
+                document.getElementById("main").style.display = "block";
+                document.getElementById("nav").style.display = "flex";
+            }
+            function showhome(){
+                var ld=setTimeout(shhome,1100)
+                function shhome(){
+                document.getElementById("home").classList.add('active');
+            }}
+
+            const date = new Date()
+                const year = date.getFullYear()
+
+                document.getElementById("copy").innerHTML = year
+
+
+//   ----------------------------Scroll Top---------------------------------  
 
 const scrollTopBtn = document.querySelector('.js-scroll-top');
 if (scrollTopBtn) {
@@ -98,5 +123,5 @@ if (scrollTopBtn) {
     const scrollPos = window.scrollY || window.scrollTopBtn || document.getElementsByTagName('html')[0].scrollTopBtn;
     scrollPos > offset ? scrollTopBtn.classList.add('is-active') : scrollTopBtn.classList.remove('is-active');
 
-  }, false);    
- }
+  }, false);
+}
