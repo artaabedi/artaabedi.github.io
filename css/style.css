@@ -1074,3 +1074,31 @@ html {
 }
 
 .content { max-width: 640px; margin: 0 auto; }
+
+
+
+/* --------------------NP-Process---------------------------- */
+
+body{
+  margin:0
+}
+
+#nprogress .bar {
+  height:6px;
+}
+
+#container {
+  padding:40px;
+  background-color:grey;
+  color:white;
+}
+#nprogress .bar {
+  background: purple;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: blue;
+  border-left-color: blue;
+}
+
+
