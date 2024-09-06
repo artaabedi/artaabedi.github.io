@@ -1,3 +1,4 @@
+
 // ------------------------Theme Switch -----------------------
 
 function light() {
@@ -22,10 +23,11 @@ function navtoggle() {
 	document.querySelector(".bar").classList.toggle("active");
 }
 
+
 // ----------------------multi Tag line---------------------------------------
 
 var typingEffect = new Typed(".multiText", {
-	strings: ["BCA Graduate", "Web Developer", "UI<span > / </span>UX Designer"],
+	strings: ["Web Developer", "UI<span > / </span>UX Designer"],
 
 	loop: true,
 
@@ -35,6 +37,7 @@ var typingEffect = new Typed(".multiText", {
 
 	backDelay: 1500,
 });
+
 
 // ---------------------------Scroll Animation--------------------------------
 
@@ -52,6 +55,7 @@ function reveal() {
 		}
 	}
 }
+
 
 //   ----------------------------Loader Animation ---------------------------------
 
@@ -77,6 +81,7 @@ const date = new Date();
 const year = date.getFullYear();
 document.getElementById("copy").innerHTML = year;
 
+
 // -----------------------------tilt animation --------------------------
 
 VanillaTilt.init(document.querySelector(".hero-image"), {
@@ -95,6 +100,7 @@ VanillaTilt.init(document.querySelectorAll(".skill"), {
 	max: 25,
 	speed: 400,
 });
+
 
 // ----------------------------mouse-move-------------------------
 
@@ -126,6 +132,7 @@ function getRandomTransitionValue() {
 
 // Add event listener to track mouse movements and create spark effect
 document.addEventListener("mousemove", spark);
+
 
 //   ----------------------------Scroll Top---------------------------------
 
@@ -189,6 +196,7 @@ if (scrollTopBtn) {
 	);
 }
 
+
 //   ----------------------------Lock Right-Click---------------------------------
 
 document.addEventListener("contextmenu", function (e) {
@@ -198,3 +206,4 @@ document.addEventListener("contextmenu", function (e) {
 document.addEventListener("selectstart", function (e) {
 	e.preventDefault();
 });
+
