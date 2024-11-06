@@ -939,7 +939,7 @@ audio {
 	--rotateX: -90deg;
 }
 .boxes .box > div:nth-child(4) {
-	--background: #dbe3f4;
+	--background: #e4e9fd;
 	--top: 0;
 	--left: 0;
 	--translateZ: calc(var(--size) * 3 * -1);
@@ -958,11 +958,11 @@ html {
 #loader {
 	min-height: 100vh;
 	font-family: Roboto, Arial;
-	color: #adafb6;
+	color: #e4e9fd;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: #f9fbff;
+	background: #e4e9fd;
 }
 #loader .dribbble {
 	position: fixed;
