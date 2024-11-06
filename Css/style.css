@@ -1057,3 +1057,10 @@ html {
 	max-width: 640px;
 	margin: 0 auto;
 }
+
+/* --------------------Donate-Logo---------------------------- */
+
+.highlighted-logo {
+    position: relative;
+    top: -1px;
+}
